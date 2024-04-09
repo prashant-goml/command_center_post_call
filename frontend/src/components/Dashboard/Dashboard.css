@@ -1,0 +1,38 @@
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .box-container {
+    transition: all 0.3s ease-in-out;
+    width: 200px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    background-color: white; /* Red background color */
+    color: #EF4444;
+    margin: 60px;
+    border: 3px solid #EF4444; /* Added border property */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Added box shadow */
+    border-radius: 20px;
+  }
+  
+  .box-container:hover {
+    border-color: #2a4365; /* Red border color on hover */
+    /* box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);  */
+    color: white;
+    background-color: #04a8c2/* Blue shadow on hover */
+    
+  } 
+  
+  .box-container:active {
+    transform: scale(0.95); /* Scale down on click */
+  }
+  
+  
+  .box {
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #f9f9f9; */
+  }
+  
